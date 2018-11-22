@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'links',
     'graphene_django',
     'django.contrib.admin',
     'django.contrib.auth',
