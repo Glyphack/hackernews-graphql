@@ -19,4 +19,4 @@ class Mutation(links.schema.Mutation,
     refresh_token = graphql_jwt.Refresh.Field()
 
 
-schema = graphene.Schema(query= Query, mutation=Mutation)
+schema = graphene.Schema(query=Query, mutation=Mutation)
